@@ -1,0 +1,73 @@
+h1 { color: rgb(51, 84, 172);
+}
+
+h2 { color: crimson;
+    text-decoration: overline; }
+
+h1, h2  {font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+p , li  {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#banner {
+    background-color: darkkhaki;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+#banner p {
+    margin: 0;
+ }
+
+#nav , nav , nav, nav {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+}
+#nav a:hover, nav a:hover , nav a:hover, nav a:hover{
+    background-color: aquamarine;
+    color: cadetblue;
+}
+
+#nav a, nav a , nav a, nav a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size:large;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#footer ,footer , footer , footer {
+    background-color: #E7E9EB;
+    min-height: 150px;
+    text-align: center;
+
+}
+#footer a, footer a, footer a , footer a {
+    color:blue;
+    text-decoration:overline;
+
+}
+#main, main, main , main  {
+    width: 80%;
+    margin:0 auto;
+}
+
+article, article, article , article {
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+}
+
+.DifferrentlookingText {
+    font-size:Larger ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.weirdColor {
+    color:darkmagenta;
+}
