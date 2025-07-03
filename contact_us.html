@@ -63,7 +63,7 @@
      <h2> General Inquires</h2>
      <article>
          <!-- Comfirmation form -->
-         <form action="comfirmation.html">
+         <form action="comfirmation.html" id="ContactForm">
              <label for="Full name"> Fullname* </label>    <br>
              <input  required type="text" id="Full name" name="fullname" placeholder="Full name">
              <br>
@@ -81,7 +81,8 @@
              <textarea required name="message" id="message" cols="30" rows="10"></textarea>
              <br>
              <br>
-             <input type="submit" value="Submit">
+             <button type="submit">Submit</button>
+             <button type="button" onclick=Clearform()> Clear </button>
              <br>
          </form>
      </article>
@@ -95,5 +96,7 @@
           <a href="https://trevontaylor.com"> Trevor Taylor website </a>
       </div>
   </footer>
+<script src="JavaScript\web.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 </body>
 </html>
