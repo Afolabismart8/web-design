@@ -4,64 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About_us</title>
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css"/>
     <link rel="stylesheet" href="stylesheet/style.css"/>
 </head>
 <body>
 <header>
-    <div id="banner">
-        <p> Random website notification </p>
-    </div>
-
-    <!-- Nav bar -->
-    <div id="nav">
-        <a href="home.html" >Home</a>
-        <a href="about_us.html" >About_us</a>
-        <a href="contact_us.html" >Contact_us</a>
+    <div id="header" >
+        <div id="banner" class="bg-secondary text-white text-center">
+            <p> Random website notification </p>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Animal Protection</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link" href="about_us.html">About_us</a>
+                        <a class="nav-link" href="contact_us.html">Contact_us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
 </header>
-
- <main>
-     <h1>About_us</h1>
+ <main class="container">
+     <br>
+     <h1>About us</h1>
      <hr/>
      <article>
          <h2> Animal preservation </h2>
-         <img src=" Images/duck.jpg.jpg" alt="duck"/>
-         <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         <p> <strong>
+             Animal preservation stories highlight successful conservation efforts for various species,
+             showcasing the impact of human intervention in safeguarding biodiversity. Examples include
+             the comeback of the bald eagle, the resurgence of the grey wolf, and the recovery of the giant panda,
+             all demonstrating the positive outcomes of dedicated conservation initiatives. These stories also emphasize
+             the importance of habitat protection, captive breeding programs, and community involvement in ensuring the
+             survival of endangered species. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
              It has survived not only five centuries, but also the leap into electronic typesetting,
-             remaining essentially unchanged. It was  in the 1960s with the release of sheets cont</p>
+             remaining essentially unchanged. It was  in the 1960s with the release of sheets constance </strong> </p>
      </article>
+     <br>
          <h2>Daily Task</h2>
      <article>
-         <ul>
-         <li>we patrol preservation area</li>
-         <li>we clean the area</li>
-         <li>we feed the animals </li>
-         <li>we police the environment</li>
-         </ul>
+         <div class="row">
+             <div class="col">
+                 <div class="card" style="width: 18rem;">
+                     <img src="images/eagle.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                         <h5 class="card-title"> WE PATROL PRESERVATIVE AREA </h5>
+                         <p class="card-text">We patrol the animal preservative center during some
+                             specific hours of the animals and staff other staffs, Cleaning an animal area involves removing waste,.</p>
+                         <a href="contact_us.html" class="btn btn-primary">Check out parol</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="card" style="width: 18rem;">
+                     <img src="images/lion1.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                         <h5 class="card-title">WE CLEAN THE AREA </h5>
+                         <p class="card-text"> Massive cleaning of animal garden are duly
+                         controlled by the janitors and other staffs, cleaning surfaces,and disinfecting as needed to maintain a healthy and safe environment for both the animals and humans.</p>
+                         <a href="contact_us.html" class="btn btn-primary">Check Cleaning</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="card" style="width: 18rem;">
+                     <img src="images/lion2.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                         <h5 class="card-title">WE FEED THE ANIMAL </h5>
+                         <p class="card-text"> Animals are fed a variety of foods depending on their species and whether they are domesticated or wild.
+                             Common feed includes grains, forages (like hay and silage), plant protein products, and processed grain by-products.</p>
+                         <a href="contact_us.html" class="btn btn-primary">Go somewhere</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col">
+                 <div class="card" style="width: 18">
+                     <img src="images/bird.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                         <h5 class="card-title">WE POLICE THE ENVIRONMENT</h5>
+                         <p class="card-text">In Singapore, animal welfare and environmental protection are taken seriously, with various
+                             agencies and organizations involved in policing and ensuring the well-being of animals and
+                             the environment. This includes law enforcement.</p>
+                         <a href="contact_us.html" class="btn btn-primary">Go Police</a>
+                     </div>
+                 </div>
+             </div>
+         </div>
     </article>
-
+     <br>
           <h2>How can you join</h2>
+     <br>
      <article>
-         <ol>
-             <li> Apply to our website </li>
-             <li> Await feedback response </li>
-             <li> Training </li>
-             <li> Attend the interview </li>
-             <li>
-                 <a href="contact_us.html">Contact us Here</a>
-             </li>
-         </ol>
+         <div class="accordion" id="accordionExample">
+             <div class="accordion-item">
+                 <h3 class="accordion-header">
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong> APPYLY TO OUR WEBSITE </strong> </button>
+                 </h3>
+                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">Apply to OUr center in Singapore, These organizations offer various roles, including volunteer positions,
+                             and some may have career openings. You can check their websites for specific application
+                             procedures and requirements.
+                     </div>
+             </div>
+             <div class="accordion-item">
+                 <h3 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                         <strong> AWAIT OUR FEEDBACK RESPONSE</strong> </button>
+                 </h3>
+                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                         To convey the message of awaiting feedback from an organization,you could use phrases like
+                             "Awaiting your feedback,These are all professional and clear ways to express that
+                             you are waiting for a response.
+                     </div>
+                 </div>
+             </div>
+
+             <div class="accordion-item">
+                 <h3 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>TRAINING </strong>
+                     </button>
+                 </h3>
+                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                         Training within an organization is a structured process aimed at equipping
+                             employees with the knowledge, skills, and abilities needed to perform their jobs effectively
+                             and contribute to the organization's goals
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+             <div class="accordion-item">
+                 <h3 class="accordion-header">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <strong> ATTEND THE INTERVIEW </strong>
+                     </button>
+                 </h3>
+                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">To confirm your interview attendance,
+                             you should reply to the interview invitation email as soon as possible,
+                             ideally the same day or the next business day.
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <br>
+         <br>
+         <a href="contact_us.html">Contact us Here</a>
          </article>
  </main>
-         <footer>
-             <div id="footer">
-                 <br>
-                 <br>
-                 <a href="https://www.google.com" >Google</a>
-                 <a href="https://www.ebay.com" > Ebay </a>
-                 <a href="https://trevontaylor.com" > Trevor Taylor website </a>
-             </div>
-          </footer>
+<footer>
+    <footer class="py-3 mt-4 bg-secondary" data-bs-theme="dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href="home.html" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="about_us.html" class="nav-link px-2 text-body-secondary">About_us</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="contact_us.html" class="nav-link px-2 text-body-secondary">Contact_us</a> </li>
+        </ul>
+        <p class="text-center text-body-secondary"> &Copy;
+            <a href="https://trevontaylor.com" target="_blank" class="text-body-secondary"> Trevor Taylor website </a>
+    </footer>
+<script src="JavaScript\jquery.min.js"> </script>
+<script src="JavaScript\bootstrap.min.js"> </script>
+<script src="JavaScript\web.js"> </script>
 </body>
 </html>

@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> comfirmation </title>
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css"/>
     <link rel="stylesheet" href="stylesheet/style.css"/>
 </head>
 <body>
 <header>
-    <div id="banner">
-        <p> Random website notification </p>
-    </div>
-    <div id="nav">
-        <a href="home.html" >Home</a>
-        <a href="about_us.html" >About_us</a>
-        <a href="contact_us.html" >Contact_us</a>
-        <br>
+    <div id="header" >
+        <div id="banner" class="bg-secondary text-white text-center">
+            <p> Random website notification </p>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> Animal Protection </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link" href="about_us.html">About_us</a>
+                        <a class="nav-link" href="contact_us.html">Contact_us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
 </header>
-<main>
+<main class="container">
     <article>
         <h1>  Enquiries Submitted </h1>
         <hr>
@@ -35,5 +47,8 @@
         <a href="https://trevontaylor.com" > Trevor Taylor website </a>
     </div>
 </footer>
+<script src="JavaScript\jquery.min.js"> </script>
+<script src="JavaScript\bootstrap.min.js"> </script>
+<script src="JavaScript\web.js"> </script>
 </body>
 </html>

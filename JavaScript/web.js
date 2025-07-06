@@ -1,5 +1,6 @@
-function Clearform() {
-    document.getElementById( "ContactForm ").reset();
+
+function clearform()  {
+    document.getElementById( "ContactForm ").reset()
 }
 
 function hidepTags(){
@@ -13,4 +14,16 @@ function hidepTags(){
 
 $("#jqueryBtn").click(function(){
     $("p").hide();
+})
+
+$(function() {
+    var page = ['home', 'about_us', 'contact_us'];
+    var pathname = window.location.pathname;
+
+    $(".nav-link").each(function(item){
+        if(pathname.includes(page[item])) {
+            $(this).addClass("active");
+            $(this).atrr("aria-current", "page");
+        }
+    })
 })

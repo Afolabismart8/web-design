@@ -1,82 +1,145 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head> <title>Home page</title>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Document</title>
+ <title>Animals preservation centre</title>
+ <link rel="stylesheet" href="stylesheet/bootstrap.min.css"/>
  <link rel="stylesheet" href="stylesheet/style.css"/>
   </head>
-<body>
+ <body>
        <div id="header" >
-       <div id="banner" >
+       <div id="banner" class="bg-secondary text-white text-center">
            <p> Random website notification </p>
        </div>
-
-       <div id="nav">
-        <!-- Nav bar -->
-             <a href="home.html" >Home</a>
-             <a href="about_us.html" >About_us</a>
-             <a href="contact_us.html" >Contact_us</a>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+         <div class="container-fluid">
+          <a class="navbar-brand" href="#">Animal Protection</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           <div class="navbar-nav">
+            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="about_us.html">About_us</a>
+            <a class="nav-link" href="contact_us.html">Contact_us</a>
+           </div>
+          </div>
+         </div>
+        </nav>
         </div>
-        </div>
-
-        <div id="main">
+       <main>
+        <div id="main" class="container">
          <!-- Animal preservation center -->
-         <h1>  Animal preservation center </h1>
+         <h1>  Animal preservation centre - Americas</h1>
          <hr/>
-         <h2 class="DifferrentlookingText">header 2</h2>
-         <h3>header 3</h3>
-         <h4>header 4</h4>
-         <h5>header 5</h5>
-         <h6>header 6</h6>
-
+         <div id="carouselExampleIndicators" class="carousel slide carousel-fade"
+              data-bs-ride="carousel">
+          <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                   class="active" aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                   aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                   aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img src="images/elephant.jpg" class="d-block w-100" alt="elephant">
+           </div>
+           <div class="carousel-item">
+            <img src="images/lion1.jpg" class="d-block w-100" alt="Lion1">
+           </div>
+           <div class="carousel-item">
+            <img src="images/lion2.jpg" class="d-block w-100" alt="Lion2">
+           </div>
+            <div class="carousel-item">
+             <img src="images/ostrich.jpg" class="d-block w-100" alt="ostrich">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+          </button>
+         </div>
+         <br>
+         <br>
+         <p>
+          Forest preservation involves protecting and managing forests to ensure their long-term health and
+          sustainability. This includes preventing deforestation, promoting sustainable forestry practices,
+          and restoring degraded forest areas. Effective forest preservation is crucial for mitigating climate
+          change, protecting biodiversity, and supporting local communities.
+         </p>
+         <p>
+          Conservation of forest is the practice of planting more trees and maintaining the forested areas for
+          the sustainability for future generations. Forests are an important natural resource and are beneficial
+          to humans in several ways.
+         </p>
+         <br>
+         <br>
          <!-- Success stories  -->
-         <h2> Preservation success stories -American </h2>
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/RkM8g0dtX58?si=aRpyaRaVpmC0qcea"
-                 title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write;
+         <div class="row">
+              <div class="col">
+               <h2> Preservation success stories -American </h2>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/RkM8g0dtX58?si=aRpyaRaVpmC0qcea"
+                       title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write;
         encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-                 allowfullscreen></iframe>
+                       allowfullscreen></iframe>
+               <br>
+               <br>
+               <p> lorem A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do. </p>
+              </div>
+          <br>
+              <div class="col">
+               <h2> Cayman Brac Rock guana </h2>
+               <!--Embedding video and audio -->
+               <video width="560" height="315" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                <source src="https://www.w3schools.com/html/mov_bbb.wmv" type="video/wmv">
+                Your browser does not support the video.
+               </video>
+               <br>
+               <audio controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp3" type="audio/mp3">
+                your browser does not support the audio element.
+               </audio>
+               <br>
+              </div>
+         </div>
          <br>
+         <div class="text-center">
+         <button id="jqueryBtn" class="btn btn-danger btn-lg"> Hide p Tag - Jquery</button>
+         <button onclick="hidepTags()" class="btn btn-outline-danger btn-lg">Hide p Tag - Javascript </button>
          <br>
-            <p> lorem A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do. </p>
-         <br>
-
-            <p class="DifferrentlookingText weirdColor"> Forest preservation refers to the protection, maintenance, and conservation of forests in their natural state.
-         The goal is to prevent deforestation, degradation, and any practices that harm ecosystems, while also ensuring that
-         forests continue to provide ecological, economic, and social benefits. </p>
-         <br>
-         <br>
-         <h2> Cayman Brac Rock guana </h2>
-         <!--Embedding video and audio -->
-         <video width="560" height="315" controls>
-          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-          <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
-          <source src="https://www.w3schools.com/html/mov_bbb.wmv" type="video/wmv">
-          Your browser does not support the video.
-         </video>
-         <br>
-         <br>
-         <audio controls>
-          <source src="https://www.w3schools.com/html/mov_bbb.mp3" type="audio/mp3">
-          your browser does not support the audio element.
-         </audio>
-         <br>
-         <br>
-         <br>
-         <button id="jqueryBtn"> Hide p Tag - Jquery</button>
-         <button onclick="hidepTags()">Hide p Tag - Javascript</button>
-
         </div>
-        <div id="footer">
          <br>
-         <br>
-         <a href="https://www.google.com" >Google</a>
-         <a href="https://www.ebay.com" > Ebay </a>
-         <a href="https://trevontaylor.com" > Trevor Taylor website </a>
-        </div>
-     <script src="JavaScript\jquery.min.js"> </script>
+       </main>
+       <footer>
+         <footer class="py-3 mt-4 bg-secondary" data-bs-theme="dark">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+            <a href="home.html" class="nav-link px-2 text-body-secondary">Home</a>
+           </li>
+
+           <li class="nav-item">
+            <a href="about_us.html" class="nav-link px-2 text-body-secondary">About_us</a>
+           </li>
+
+           <li class="nav-item">
+            <a href="contact_us.html" class="nav-link px-2 text-body-secondary">Contact_us</a> </li>
+          </ul>
+           <p class="text-center text-body-secondary"> Copy;
+          <a href="https://trevontaylor.com" target="_blank" class="text-body-secondary"> Trevor Taylor website </a>
+       </footer>
+       <script src="JavaScript\jquery.min.js"> </script>
+       <script src="JavaScript\bootstrap.min.js"> </script>
        <script src="JavaScript\web.js"> </script>
-</body>
+ </body>
 </html>

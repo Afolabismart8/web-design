@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a75ffc-16aa-43a1-950a-154c4b70ea71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing Javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="34a75ffc-16aa-43a1-950a-154c4b70ea71" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +36,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;JavaScript Debug.about_us.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contact_us.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -66,6 +59,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Practices\.idea" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Practices\JavaScript" />
+      <recent name="C:\Practices\stylesheet" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -85,8 +82,19 @@
       <workItem from="1751179690702" duration="5330000" />
       <workItem from="1751187747550" duration="45089000" />
       <workItem from="1751459298912" duration="2428000" />
-      <workItem from="1751536058642" duration="11963000" />
+      <workItem from="1751536058642" duration="25566000" />
+      <workItem from="1751623685502" duration="9003000" />
+      <workItem from="1751806142578" duration="8915000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1751820210604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751820210604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
