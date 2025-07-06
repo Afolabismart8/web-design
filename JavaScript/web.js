@@ -1,6 +1,6 @@
 
-function clearform()  {
-    document.getElementById( "ContactForm ").reset()
+function Clearform()  {
+    document.getElementById( "ContactForm").reset();
 }
 
 function hidepTags(){
@@ -9,12 +9,12 @@ function hidepTags(){
         //items.style.visibility = "hidden"; // removes element ,leaves the spaces
         items.style.display = "none"; // removes element and space
     }
-
 }
 
 $("#jqueryBtn").click(function(){
     $("p").hide();
 })
+
 
 $(function() {
     var page = ['home', 'about_us', 'contact_us'];
@@ -27,3 +27,4 @@ $(function() {
         }
     })
 })
+

@@ -1,40 +1,226 @@
-h1 { color: rgb(51, 84, 172);
+
+@media screen and (min-width: 767px) {
+
+    h1 {
+        color: rgb(51, 84, 172);
+    }
+
+    h2 {
+        color: crimson;
+        text-decoration: overline;
+    }
+
+    h1, h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    #banner {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+
+    #banner p {
+        margin: 0;
+    }
+
+    article, article, article, article {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 70px;
+    }
+
+    .DifferrentlookingText {
+        font-size: Larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .weirdColor {
+        color: darkmagenta;
+    }
 }
 
-h2 { color: crimson;
-    text-decoration: overline; }
+@media screen and (min-width: 768px) {
 
-h1, h2  {font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    h1 {
+        color: rgb(51, 84, 172);
+    }
 
-#banner {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    h2 {
+        color: crimson;
+        text-decoration: overline;
+    }
 
+    h1, h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    #banner {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+
+    #banner p {
+        margin: 0;
+    }
+
+    article, article, article, article {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 70px;
+    }
+
+    .DifferrentlookingText {
+        font-size: Larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .weirdColor {
+        color: darkmagenta;
+    }
 }
-#banner p {
-    margin: 0;
- }
 
-article, article, article , article {
-    margin-bottom: 20px;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        color: rgb(51, 84, 172);
+    }
+
+    h2 {
+        color: crimson;
+        text-decoration: overline;
+    }
+
+    h1, h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    #banner {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+
+    #banner p {
+        margin: 0;
+    }
+
+    article, article, article, article {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 70px;
+    }
+
+    .DifferrentlookingText {
+        font-size: Larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .weirdColor {
+        color: darkmagenta;
+    }
 }
 
-.logo {
-    height: 50px;
-    width: 70px;
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+    h1 {
+        color: rgb(51, 84, 172);
+    }
+
+    h2 {
+        color: crimson;
+        text-decoration: overline;
+    }
+
+    h1, h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    #banner {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+
+    #banner p {
+        margin: 0;
+    }
+
+    article, article, article, article {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 70px;
+    }
+
+    .DifferrentlookingText {
+        font-size: Larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .weirdColor {
+        color: darkmagenta;
+    }
 }
 
-.DifferrentlookingText {
-    font-size:Larger ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-.weirdColor {
-    color:darkmagenta;
-}
+@media screen and (min-width:1200px) {
 
+    h1 {
+        color: rgb(51, 84, 172);
+    }
 
-body {
-    backdrop-filter: blur(10px);
+    h2 {
+        color: crimson;
+        text-decoration: overline;
+    }
+
+    h1, h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    #banner {
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+
+    #banner p {
+        margin: 0;
+    }
+
+    article, article, article, article {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 70px;
+    }
+
+    .DifferrentlookingText {
+        font-size: Larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .weirdColor {
+        color: darkmagenta;
+    }
 }
-
